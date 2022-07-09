@@ -1,0 +1,107 @@
+.hero__header-pricing{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/images/pricing-2-1.jpg') !important;
+    height: 480px;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    @media only screen and(max-width:500px) {
+        height: 400px;
+    }
+    
+}
+.design-development{
+    background-image:  url('../assets/images/image\ 5.png') !important;
+    background-repeat: no-repeat !important;
+    background-size:contain !important;
+    background-position: center !important;
+    padding: 50px 0px;
+} 
+.design-header{
+    background-color:#981F86
+    ;
+    height: 33px;
+p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+}
+.mt-33{
+    margin-top: 33px;
+}
+.design-card2{
+    box-shadow: 0px 7px 28px 3px rgba(0, 0, 0, 0.17);
+}
+.design-card{
+background: #FFFFFF;
+box-shadow: 0px 7px 28px 3px rgba(0, 0, 0, 0.17);
+padding: 30px 25px 45px 25px;
+position: relative;
+
+.save{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 3px;
+}
+.red{
+    color: #FF5A5A;
+    background-color: #FFBEBE;
+    padding: 3px 6px;
+}
+.green{
+    color: white;
+    background: #10A64A;
+mix-blend-mode: normal;
+opacity: 0.6;
+padding: 3px 6px;
+}
+.blue{
+    color: white;
+    background: #981F86
+;
+mix-blend-mode: normal;
+opacity: 0.6;
+padding: 3px 6px;
+}
+.line{
+    height: 1px;
+mix-blend-mode: normal;
+opacity: 0.2;
+border: 2px solid #979797;
+}
+
+.design-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    li{
+        display: flex;
+        align-items: center;
+        margin-top: 13px;
+    }
+}
+
+}
+.design-btn{
+    background-color: transparent;
+    border: none;
+    a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        background: #981F86
+        ;
+        padding: 10px 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}

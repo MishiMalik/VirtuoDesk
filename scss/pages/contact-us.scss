@@ -1,0 +1,94 @@
+.hero__header-contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url('../assets/images/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover !important;
+    height: 480px;
+    width: 100%;
+    @media only screen and(max-width:500px) {
+        height: 400px;
+    }
+    
+}
+.contact-us{
+    background-image:  url('../assets/images/image\ 5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:0px 0px 50px 0px;
+    background-size: cover !important;
+
+    .contact-form{
+        padding: 20px 50px;
+        background: #FAFAFB;
+border: 8px solid #981F86;
+box-sizing: border-box;
+margin-top: -80px;
+    }
+}
+.contact-textarea{
+    width: 100%;
+    background: #FFFFFF;
+border: 1px solid #7CA7F3;
+box-sizing: border-box;
+}
+// input{
+//     background: #FFFFFF;
+//     border: 1px solid #7CA7F3 ;
+//     box-sizing: border-box;
+
+// }
+.social__list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li{
+        margin: 0px 15px;
+    }
+}
+
+// ppop up
+.modal-dialog {
+    max-width: 65vw !important;
+   
+    @media only screen and (max-width:500px){
+        max-width: 90vw !important;
+    }
+}
+.modal-content{
+    padding: 20px !important;
+    border: 8px solid #981F86;
+    background-color:#FAFAFB ;
+}
+.number-btn{
+background-color: transparent !important;
+padding:3px 10px ;
+border: 2px solid white;
+border-radius: 2px;
+margin-top: 5px;
+&:hover{
+    background-color: #981F86 !important;
+    
+}
+}
+.number{
+    font-size: 20px !important;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    svg{
+        fill: white!important;
+        &:hover{
+            fill:white !important;
+        }
+    }
+    &:hover{
+        color: white;
+        svg{
+                fill:white !important;
+          
+        }
+    }
+    
+}
